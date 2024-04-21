@@ -1,0 +1,15 @@
+grid-auto-row = is aproperty that defines the size of rows in a grid
+container that are not explicitly sized .It sets the size for rows .
+
+grid-auto column = it sets the size for the column that are not explicitly
+sized.
+
+code//
+
+.grid-container{
+    grid-template-columns:100px 100px;
+    grid-template-rows:100px 100px;
+
+    grid-auto-row:100px;
+    grid-auto-column:100px;
+}
